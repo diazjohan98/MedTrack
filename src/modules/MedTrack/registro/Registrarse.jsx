@@ -1,7 +1,13 @@
+import { useNavigate } from 'react-router-dom';
 import ImgLogo from '../../../assets/img/LogoMedTrack.png';
 import './css/registrarse.css'
 
 export const Registrarse = () => {
+    const navigate = useNavigate()
+  const handleSubmitMedicamento =()=>{
+    navigate('/medicamento')
+
+  }
     return (
         <div className='containerRegistrarse'>
             <img className='imgLogoLoginPrincipal' src={ImgLogo} alt="" />
@@ -20,7 +26,7 @@ export const Registrarse = () => {
                     <input type="password" className="form-control" id="exampleInputPassword1" />
                 </div>
                 <div className='d-grid gap-2 mt-4'>
-                    <button type="submit" className="btn btn-primary rounded-pill">REGISTRAR</button>
+                    <button onClick={handleSubmitMedicamento} type="submit" className="btn btn-primary rounded-pill">REGISTRAR</button>
                 </div>
             </form>
         </div>
