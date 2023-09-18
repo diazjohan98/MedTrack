@@ -1,14 +1,13 @@
-import Perfil from "../../../assets/Perfil.png";
+import Perfil1 from "../../../assets/Perfil.png";
 import IconoEnfermero from "../../../assets/IconoEnfermero.png";
 import ConfigIcon from "../../../assets/ConfigIcon.png";
-import IconoLlamar from "../../../assets/IconoLlamar.png";
 
-export const Emergency = () => {
+export const Perfil = () => {
   return (
     <div className="container pt-5">
       <div className="row">
         <div className="col-4">
-          <img src={Perfil} className="img-fluid pt-4" ></img>
+          <img src={Perfil1} className="img-fluid pt-4"></img>
         </div>
         <div className="col-4">
           <img src={IconoEnfermero} className="img-fluid"></img>
@@ -19,28 +18,36 @@ export const Emergency = () => {
           </button>
         </div>
       </div>
-      <div className="p-4 pt-5 ps-2">
+      <div className="pt-5 ps-2">
         <button type="button" className="btn">
-          <p className="fs-1">Información personal</p>
+          <p className="fs-1">Nombre</p>
         </button>
       </div>
-      <div className="p-4 ps-2">
+      <div className="ps-2">
         <button type="button" className="btn">
-          <p className="fs-1">Medicamentos</p>
+          <p className="fs-1">Fecha de nacimiento</p>
         </button>
       </div>
-      <div className="p-4">
-        <p className="fs-1">Contacto de Emergencia</p>
-      </div>
-      <div className="mx-auto" style={{width: 100}}>
+      <div className="ps-2">
         <button type="button" className="btn">
-          <img src={IconoLlamar} className="img-fluid"></img>
+          <p className="fs-1">Peso</p>
         </button>
-        <p className="fs-1">Llamar</p>
       </div>
-      <div>
+      <div className="ps-2">
         <button type="button" className="btn">
-          <p className="fs-1" style={{color: "#5BD654"}}>Cerrar Sesion</p>
+          <p className="fs-1">Estatura</p>
+        </button>
+      </div>
+      <div className="ps-2">
+        <button type="button" className="btn">
+          <p className="fs-1">Contacto de emergencia</p>
+        </button>
+      </div>
+      <div className="pt-4">
+        <button type="button" className="btn">
+          <p className="fs-1" style={{ color: "#5BD654" }}>
+            Cerrar Sesion
+          </p>
         </button>
       </div>
     </div>
