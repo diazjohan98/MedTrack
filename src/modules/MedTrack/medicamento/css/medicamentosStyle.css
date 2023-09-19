@@ -1,0 +1,31 @@
+.titleContainer{
+    margin-top: 60px;
+    display: flex;
+}
+
+.titleMedicamentos{
+    font-size: 25px;
+    color: #5E5E5E;
+    margin-bottom: 0;
+}
+.containerMedicamentosInputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.titleLabels{
+    color: #5BD654;
+}
+
+.pildoras{
+    display: flex;
+    align-items: center;
+}
+
+.textoPildoras{
+    margin-bottom: 0;
+}
+.containerHorasInput{
+    display: flex;
+}

@@ -1,0 +1,11 @@
+.containerLaunche{
+    background-color: #0055F9;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LogoAppLaunche{
+    width: 300px;
+}
