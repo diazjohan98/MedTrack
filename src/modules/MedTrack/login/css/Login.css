@@ -5,11 +5,12 @@
 
 .containerLogin{
     width: 90%;
-    margin-bottom: 50%;
-    margin-top: 50%;
+    margin: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 .titleLogin {

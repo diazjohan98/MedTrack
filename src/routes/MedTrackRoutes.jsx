@@ -9,6 +9,7 @@ import { Perfil } from '../modules/MedTrack/perfil/Perfil'
 import { Sidebar } from '../components/sidebar/Sidebar'
 import { Dashboard } from '../modules/MedTrack/dashboard/Dashboard'
 import { Emergency } from '../modules/MedTrack/emergencia/Emergency'
+import "./css/Routes.css"
 
 export const MedTrackRoutes = () => {
   return (
