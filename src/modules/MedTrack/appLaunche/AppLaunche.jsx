@@ -11,7 +11,7 @@ export const AppLaunche = () => {
     // Simula la carga del logo durante 2 segundos
     setTimeout(() => {
       setIsLoading(false);
-    }, 2800);
+    }, 1900);
   }, []);
 
   const handleSubmitMedicamento = () => {
