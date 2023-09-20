@@ -4,6 +4,7 @@ import { CounterWithCustom } from '../../../components/CounterWithHook.jsx/Count
 import { DiasApp } from '../../../components/counterDias/DiasApp'
 import { HorasInput } from '../../../components/counterHoras/HorasInput'
 import './css/medicamentosStyle.css'
+import { Sidebar } from '../../../components/sidebar/Sidebar'
 
 export const Medicamento = () => {
 
@@ -17,9 +18,11 @@ export const Medicamento = () => {
   }
 
   return (
-    <div className="containerMedicamentos">
-      <div className="titleContainer">
-        <img src={vectorPNG} alt="" className='mx-3' />
+    <div>
+      <Sidebar />
+    <div className="containerMedicamentos mx-5">
+      <div className="titleContainer mx-3">
+        <img src={vectorPNG} alt="" className='mx-1' />
         <p className='titleMedicamentos'>Registra Medicamentos</p>
       </div>
 
@@ -53,6 +56,7 @@ export const Medicamento = () => {
           </div>
         </form>
       </div>
+    </div>
     </div>
   )
 }
