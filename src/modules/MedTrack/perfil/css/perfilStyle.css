@@ -1,0 +1,14 @@
+.btnPerfil{
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+.btn-bottom-border {
+    border: none;
+    border-bottom: 2px solid #4d4e4e; /* Cambia el color y el grosor del borde según tus preferencias */
+    background-color: transparent;
+    color: #4d4e4e; /* Cambia el color del texto según tus preferencias */
+}
+
+.btn-bottom-border:hover {
+    background-color: transparent;
+}
