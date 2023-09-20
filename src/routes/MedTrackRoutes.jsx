@@ -5,6 +5,9 @@ import { Registrarse } from '../modules/MedTrack/registro/Registrarse'
 import { AppLaunche } from '../modules/MedTrack/appLaunche/AppLaunche'
 import { UserPAge } from '../modules/MedTrack/user/UserPAge'
 import { Graficos } from '../modules/MedTrack/graficos/Graficos'
+import { Perfil } from '../modules/MedTrack/perfil/Perfil'
+import { Sidebar } from '../components/sidebar/Sidebar'
+import { Dashboard } from '../modules/MedTrack/dashboard/Dashboard'
 
 export const MedTrackRoutes = () => {
   return (
@@ -13,10 +16,13 @@ export const MedTrackRoutes = () => {
             {/* <Route path='appLauncher' element={} /> */}
             <Route path='appLaunche' element={<AppLaunche /> } />
             <Route path='login' element={<Login /> } />
-            <Route path='medicamento' element={<Medicamento /> } />
             <Route path='registrarse' element={<Registrarse /> } />
+            <Route path='dashboard' element={<Dashboard /> } />
+            <Route path='medicamento' element={<Medicamento /> } />
             <Route path='user' element={<UserPAge /> } />
             <Route path='graficos' element={<Graficos /> } />
+            <Route path='perfil' element={<Perfil /> } />
+            <Route path='sidebar' element={<Sidebar /> } />
 
             <Route path='/' element={<Navigate to="/appLaunche" />} />
 

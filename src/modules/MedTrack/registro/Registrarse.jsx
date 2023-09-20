@@ -5,7 +5,7 @@ import './css/registrarse.css'
 export const Registrarse = () => {
     const navigate = useNavigate()
   const handleSubmitMedicamento =()=>{
-    navigate('/medicamento')
+    navigate('/dashboard')
 
   }
     return (

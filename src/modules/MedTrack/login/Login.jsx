@@ -9,7 +9,7 @@ export const Login = () => {
 
   const navigate = useNavigate()
   const handleSubmitMedicamento =()=>{
-    navigate('/medicamento')
+    navigate('/dashboard')
 
   }
   const handleSubmitRegistrar =()=>{

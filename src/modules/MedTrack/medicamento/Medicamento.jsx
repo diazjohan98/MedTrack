@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import vectorPNG from '../../../assets/img/Vector.png'
 import { CounterWithCustom } from '../../../components/CounterWithHook.jsx/CounterWithCustom'
 import { DiasApp } from '../../../components/counterDias/DiasApp'
@@ -6,8 +7,13 @@ import './css/medicamentosStyle.css'
 
 export const Medicamento = () => {
 
+  const navigate = useNavigate()
+
   const handleSubmit = (e) => {
     e.preventDefault();
+  }
+  const handleSubmitGuardar = () => {
+    navigate('/sidebar')
   }
 
   return (
@@ -43,7 +49,7 @@ export const Medicamento = () => {
             </div>
           </div>
           <div className='mt-5 d-grid gap-2 col-6 mx-auto'>
-            <button className='btn btn-primary'>GUARDAR</button>
+            <button className='btn btn-primary' onClick={handleSubmitGuardar}>GUARDAR</button>
           </div>
         </form>
       </div>
