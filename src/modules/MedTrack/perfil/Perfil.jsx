@@ -1,4 +1,4 @@
-import Perfil1 from "../../../assets/Perfil.png";
+import PerfilIcono from "../../../assets/Perfil.png";
 import IconoEnfermero from "../../../assets/IconoEnfermero.png";
 import ConfigIcon from "../../../assets/ConfigIcon.png";
 
@@ -7,7 +7,7 @@ export const Perfil = () => {
     <div className="container pt-5">
       <div className="row">
         <div className="col-4">
-          <img src={Perfil1} className="img-fluid pt-4"></img>
+          <img src={PerfilIcono} className="img-fluid pt-4"></img>
         </div>
         <div className="col-4">
           <img src={IconoEnfermero} className="img-fluid"></img>

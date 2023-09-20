@@ -1,0 +1,24 @@
+.containerLaunche{
+    background-color: #0055F9;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.LogoAppLaunche{
+    width: 200px;
+    margin-bottom: 70px;
+}
+.rotate-logo {
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

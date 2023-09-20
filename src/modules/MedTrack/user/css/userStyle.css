@@ -1,0 +1,11 @@
+.iconosPrincipalesUser{
+    display: flex;
+    justify-content: space-between;
+    font-size: 60px;
+    margin: 30px;
+}
+
+.vectorPNG{
+    width: 15%;
+    height: 50%;
+}
