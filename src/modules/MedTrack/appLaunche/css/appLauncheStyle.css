@@ -7,10 +7,11 @@
     justify-content: center;
 }
 .LogoAppLaunche{
-    width: 300px;
+    width: 200px;
+    margin-bottom: 70px;
 }
 .rotate-logo {
-    animation: rotate 3s linear infinite;
+    animation: rotate 2s linear infinite;
   }
   
   @keyframes rotate {
