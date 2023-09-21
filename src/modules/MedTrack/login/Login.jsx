@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import ImgLogo from '../../../assets/img/LogoMedTrack.png';
+import ImgLogo from '../../../assets/img/LogoCompletoMedTrack.png';
 import './css/Login.css';
 import { BsFacebook } from 'react-icons/bs';
 import { FcGoogle } from 'react-icons/fc';

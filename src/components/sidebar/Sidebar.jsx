@@ -37,7 +37,7 @@ export const Sidebar = () => {
     }
 
     return (
-        <nav className={`sidebar ${isOpen ? "open" : ""}`}>
+        <nav className={`sidebar ${isOpen ? "open" : ""}`} style={{zIndex:'999'}}>
             <div className="sidebar-inner">
                 <header className="sidebar-header">
                     <button

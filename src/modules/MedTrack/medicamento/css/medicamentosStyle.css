@@ -1,3 +1,7 @@
+.containerMedicamentos{
+    margin-left: 4rem !important;
+}
+
 .titleContainer{
     margin-top: 60px;
     display: flex;
@@ -21,6 +25,7 @@
 .pildoras{
     display: flex;
     align-items: center;
+    margin-left: 23%;
 }
 
 .textoPildoras{

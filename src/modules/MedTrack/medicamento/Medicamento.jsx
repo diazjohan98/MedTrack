@@ -30,7 +30,7 @@ export const Medicamento = () => {
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label className="form-label titleLabels">Nombre</label>
-            <input type="text" className="form-control" placeholder='Que medicamento?' id="exampleInputEmail1" aria-describedby="emailHelp" />
+            <input type="text" className="form-control mx-4" placeholder='Que medicamento?' id="exampleInputEmail1" aria-describedby="emailHelp" />
           </div>
 
           <div className='mb-3'>
@@ -41,18 +41,18 @@ export const Medicamento = () => {
           </div>
           <div className='mb-3'>
             <p className='titleLabels'>Duración</p>
-            <div className='duracion'>
+            <div className='duracion mx-4'>
               <DiasApp />
             </div>
           </div>
           <div className='mb-3'>
             <p className='titleLabels'>Hora</p>
-            <div className='duracion'>
-              <HorasInput />
+            <div className='duracion mx-4'>
+              <HorasInput className=""/>
             </div>
           </div>
           <div className='mt-5 d-grid gap-2 col-6 mx-auto'>
-            <button className='btn btn-primary' onClick={handleSubmitGuardar}>GUARDAR</button>
+            <button className='btn btn-primary mx-3' onClick={handleSubmitGuardar}>GUARDAR</button>
           </div>
         </form>
       </div>
