@@ -18,12 +18,13 @@ export const DiasInput = ({ onChange }) => {
 
     return (
 
-        <div className="input-group mb-3">
+        <div className="input-group mb-3 ">
             <input type="text"
                 placeholder="#"
                 value={dias}
                 onChange={handleChange} 
-                className="form-control" 
+                className="form-control " 
+                // style={{border: '15px'}}
          />
                 <span className="input-group-text" id="basic-addon2">Dias</span>
         </div>
