@@ -8,6 +8,9 @@ import { Graficos } from '../modules/MedTrack/graficos/Graficos'
 import { Perfil } from '../modules/MedTrack/perfil/Perfil'
 import { Sidebar } from '../components/sidebar/Sidebar'
 import { Dashboard } from '../modules/MedTrack/dashboard/Dashboard'
+import { Emergency } from '../modules/MedTrack/emergencia/Emergency'
+import "./css/Routes.css"
+import { Historia } from '../modules/MedTrack/historia/Historia'
 
 export const MedTrackRoutes = () => {
   return (
@@ -23,6 +26,8 @@ export const MedTrackRoutes = () => {
             <Route path='graficos' element={<Graficos /> } />
             <Route path='perfil' element={<Perfil /> } />
             <Route path='sidebar' element={<Sidebar /> } />
+            <Route path='emergency' element={<Emergency /> } />
+            <Route path='historia' element={<Historia /> } />
 
             <Route path='/' element={<Navigate to="/appLaunche" />} />
 

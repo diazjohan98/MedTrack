@@ -1,13 +1,17 @@
 import Perfil from "../../../assets/Perfil.png";
 import IconoEnfermero from "../../../assets/IconoEnfermero.png";
-import ConfigIcon from "../../../assets/ConfigIcon.png";
+// import ConfigIcon from "../../../assets/ConfigIcon.png";
 import IconoLlamar from "../../../assets/IconoLlamar.png";
+import { Sidebar } from "../../../components/sidebar/Sidebar";
 
 export const Emergency = () => {
+  
   return (
-    <div className="container pt-5">
+    <div>
+      <Sidebar />
+    <div className="container pt-5 mx-5" >
       <div className="row">
-        <div className="col-4">
+        <div className="col-4 mx-3">
           <img src={Perfil} className="img-fluid pt-4" ></img>
         </div>
         <div className="col-4">
@@ -15,7 +19,7 @@ export const Emergency = () => {
         </div>
         <div className="col-4">
           <button type="button" className="btn">
-            <img src={ConfigIcon} className="img-fluid pt-2"></img>
+            {/* <img src={ConfigIcon} className="img-fluid pt-2"></img> */}
           </button>
         </div>
       </div>
@@ -29,7 +33,7 @@ export const Emergency = () => {
           <p className="fs-1">Medicamentos</p>
         </button>
       </div>
-      <div className="p-4">
+      <div className="p-4" >
         <p className="fs-1">Contacto de Emergencia</p>
       </div>
       <div className="mx-auto" style={{width: 100}}>
@@ -43,6 +47,7 @@ export const Emergency = () => {
           <p className="fs-1" style={{color: "#5BD654"}}>Cerrar Sesion</p>
         </button>
       </div>
+    </div>
     </div>
   );
 };
