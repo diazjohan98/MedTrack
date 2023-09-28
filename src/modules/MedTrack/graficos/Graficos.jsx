@@ -1,32 +1,23 @@
-import GraficosI from "../../../assets/Graficos.png";
-import ConfigIcon from "../../../assets/ConfigIcon.png";
+import vectorPNG from "../../../assets/img/Vector.png";
 import Chart from "./GraficoLineas";
 import { Sidebar } from "../../../components/sidebar/Sidebar";
 
 export const Graficos = () => {
-
-
-
   return (
     <div>
       <Sidebar />
-    <div className="container pt-5 mx-5">
-      <div className="row">
-        <div className="col-6 mx-3">
-          <img src={GraficosI} className="img-fluid pt-4"></img>
+      <div className="container pt-2 mx-5">
+        <div className="row">
+          <div className="titleContainer mx-3 col-6 ">
+            <img src={vectorPNG} alt="" className="mx-1" />
+            <p className="titleMedicamentos">Graficos</p>
+          </div>
         </div>
-        <div className="col-6 pt-5 mt-4 position-absolute top-10 start-100 translate-middle">
-          <button type="button" className="btn">
-            <img src={ConfigIcon} className="img-fluid pt-2"></img>
-          </button>
+        <div className="pt-5 mt-5"></div>
+        <div className="pt-5 ps-4">
+          <Chart className="pt-5 mt-5"></Chart>
         </div>
       </div>
-      <div className="pt-5 mt-5">
-      </div>
-      <div className="pt-5 mt-5 ">
-        <Chart className="pt-5 mt-5"></Chart>
-      </div>
-    </div>
     </div>
   );
 };
