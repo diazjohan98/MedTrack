@@ -28,12 +28,14 @@ export const Login = () => {
     console.log(dataLogin);
     axios.post("https://backend-med-track-jhosebro.vercel.app/api/auth/login", dataLogin)
       .then((response) => {
-        console.log('Respuesta del backend', response.data);
+        console.log('Respuesta del backend', response.data,);
+        if (response.status === 200) {
+          navigate("/dashboard");
+        }
       })
       .catch(error => {
         console.error('Error: ' + error);
       })
-    //navigate("/dashboard");
   };
   const handleSubmitRegistrar = () => {
     navigate("/registrarse");
