@@ -25,8 +25,7 @@ export const Login = () => {
 
   const navigate = useNavigate();
   const handleSubmitMedicamento = () => {
-    console.log(dataLogin);
-    axios.post("https://backend-med-track-jhosebro.vercel.app/api/auth/login", dataLogin)
+    axios.post("https://backend-med-track.vercel.app/api/auth/login", dataLogin)
       .then((response) => {
         console.log('Respuesta del backend', response.data,);
         if (response.status === 200) {
@@ -47,7 +46,7 @@ export const Login = () => {
       <p className="titleLogin">INICIAR SESION</p>
       <form>
         <div className="mb-3">
-          <label className="form-label">Correo o ID</label>
+          <label className="form-label">ID</label>
           <input
             type="email"
             className="form-control"
