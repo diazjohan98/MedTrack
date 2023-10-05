@@ -48,7 +48,7 @@ export const Login = () => {
         <div className="mb-3">
           <label className="form-label">ID</label>
           <input
-            type="email"
+            type="text"
             className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
@@ -68,7 +68,7 @@ export const Login = () => {
         </div>
         <div className="containerBtnLogin">
           <button
-            type="submit"
+            type="button"
             onClick={handleSubmitMedicamento}
             className="btn btn-primary mb-3 rounded-pill"
           >
