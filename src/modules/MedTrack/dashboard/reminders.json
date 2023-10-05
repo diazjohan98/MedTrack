@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "trazadona",
+    "intervalo": "12 horas",
+    "cantidad": "1 pastilla"
+  },
+  {
+    "id": 2,
+    "nombre": "ibuprofeno",
+    "intervalo": "6 horas",
+    "cantidad": "2 tabletas"
+  },
+  {
+    "id": 3,
+    "nombre": "amoxicilina",
+    "intervalo": "8 horas",
+    "cantidad": "1 cápsula"
+  },
+  {
+    "id": 4,
+    "nombre": "paracetamol",
+    "intervalo": "4 horas",
+    "cantidad": "1 tableta"
+  }
+]
