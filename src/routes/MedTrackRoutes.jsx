@@ -11,6 +11,7 @@ import { Dashboard } from '../modules/MedTrack/dashboard/Dashboard'
 import { Emergency } from '../modules/MedTrack/emergencia/Emergency'
 import "./css/Routes.css"
 import { Historia } from '../modules/MedTrack/historia/Historia'
+import { Tratamiento } from '../modules/MedTrack/tratamiento/Tratamiento'
 
 export const MedTrackRoutes = () => {
   return (
@@ -28,6 +29,7 @@ export const MedTrackRoutes = () => {
             <Route path='sidebar' element={<Sidebar /> } />
             <Route path='emergency' element={<Emergency /> } />
             <Route path='historia' element={<Historia /> } />
+            <Route path='tratamiento' element={<Tratamiento /> } />
 
             <Route path='/' element={<Navigate to="/appLaunche" />} />
 
