@@ -2,7 +2,7 @@ import { useState } from "react"
 import logoMedtrackSidebar from '../../assets/img/LogoTextoblanco.png'
 import './css/sidebarStyle.css'
 import { AiOutlineClose, AiTwotoneHome } from 'react-icons/ai';
-import { GiHamburgerMenu } from 'react-icons/gi';
+import { GiHamburgerMenu, GiMedicines } from 'react-icons/gi';
 import { BsFileBarGraphFill } from 'react-icons/bs';
 import { BiSolidLogOut } from 'react-icons/bi';
 import { FaUserCircle, FaBriefcaseMedical } from 'react-icons/fa';
@@ -33,6 +33,11 @@ export const Sidebar = () => {
     }
     const handleSubmitDashboard = () => {
         navigate('/dashboard')
+
+    }
+    
+    const handleSubmitTratamiento = () => {
+        navigate('/tratamiento')
 
     }
 
@@ -67,6 +72,10 @@ export const Sidebar = () => {
                     <button type="button" className="sidebar-button"  onClick={handleSubmitGrafico}>
                         <BsFileBarGraphFill />
                         <span className="material-symbols-outlined mx-2"  onClick={handleSubmitGrafico}>Graficos</span>
+                    </button>
+                    <button type="button" className="sidebar-button"  onClick={handleSubmitTratamiento}>
+                        <GiMedicines />
+                        <span className="material-symbols-outlined mx-2"  onClick={handleSubmitTratamiento}>Tratamientos</span>
                     </button>
                     <div className="btnCloseSidebar">
                         <button type="button" className="sidebar-button" onClick={handleSubmitClose}>
